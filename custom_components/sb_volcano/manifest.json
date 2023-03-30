@@ -1,0 +1,8 @@
+{
+    "domain": "volcano",
+    "name": "SB-Volcano",
+    "codeowners": ["libby2cm"],
+    "config_flow": true,
+    "dependencies": [],  
+    "version": "0.1"
+  }

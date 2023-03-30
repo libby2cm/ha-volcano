@@ -1,0 +1,8 @@
+{
+    "name": "SB-Volcano",
+    "domains": ["climate"],
+    "render_readme": true,
+    "config_flow": true,
+    "category": "integration",
+    "country": "US"
+}
