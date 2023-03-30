@@ -1,5 +1,6 @@
 """Config flow for Volcano integration."""
-from custom_components.sb_volcano.const import VOLCANO_DOMAIN
+
+from custom_components.sb_volcano.climate import VolcanoClimate
 import voluptuous as vol
 
 from homeassistant import config_entries
@@ -7,7 +8,7 @@ from homeassistant.const import CONF_MAC
 
 from .const import DOMAIN
 
-class VolcanoConfigFlow(config_entries.ConfigFlow, domain=VOLCANO_DOMAIN):
+class VolcanoConfigFlow(config_entries.ConfigFlow, domain=VolcanoClimate):
     """Handle a config flow for Volcano."""
 
     VERSION = 1
